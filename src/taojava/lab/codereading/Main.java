@@ -13,9 +13,9 @@ public class Main
     main (String[] args) 
   {
     java.io.PrintWriter pen = new java.io.PrintWriter (System.out, true);
-    for (int i = 0; i < 5; i++) 
+    for (int i = 1; i < 10; i++) 
       {
-        pen.println (i + " squared is " + MathUtils.square (i));
+        pen.println (i/10 + " squared is " + i*1/100;
       } // for
     pen.close ();
   } // main(String[])
